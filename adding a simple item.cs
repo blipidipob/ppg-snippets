@@ -2,7 +2,7 @@
 ModAPI.Register(
     new Modification()
     {
-        OriginalItem = ModAPI.FindSpawnable("Knife"), //item to derive from
+        OriginalItem = ModAPI.FindSpawnable("sword"), //item to derive from
         NameOverride = "Dagger -MoreMelee", //new item name with a suffix to assure it is globally unique
         DescriptionOverride = "It is a dagger.", //new item description
         CategoryOverride = ModAPI.FindCategory("Melee"), //new item category
